@@ -33,6 +33,8 @@
             // 
             // serviceProcessInstaller1
             // 
+
+            this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem; //Line added , if we not add this then it will ask for password and ......
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
             // 
